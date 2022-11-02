@@ -47,15 +47,16 @@ jobs:
           cd hugo
           go install --tags extended
 
-#      - name: Deploy
-#        uses: peaceiris/actions-gh-pages@v3
-#        if: github.ref == 'refs/heads/main'
-#        with:
-#          github_token: ${{ secrets.GITHUB_TOKEN }}
-#          publish_dir: ./public
       - name: build-hugo
         run: |
           hugo --minify
 
-      - name: copy public to docs
-        run: rm -rf ./docs && mv ./public ./docs
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+
+#      - name: copy public to docs
+#        run: rm -rf ./docs && mv ./public ./docs
