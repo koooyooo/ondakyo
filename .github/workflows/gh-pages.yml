@@ -37,7 +37,7 @@ jobs:
 #          key: go-${{ hashFiles('**/go.sum') }}
 #          restore-keys: go-
 
-      - name: build-go
+      - name: install-hugo
         run: |
           mkdir -p ~/go/src/github.com/
           cd ~/go/src/github.com/
@@ -45,7 +45,11 @@ jobs:
           cd hugo
           go install --tags extended
 
-      - name: Deploy
+      - name: build-hugo
+        run:
+          hugo --minify
+
+      - name: deploy-pages
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
