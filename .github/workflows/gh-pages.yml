@@ -28,20 +28,20 @@ jobs:
           npm install -g postcss postcss-cli
           npm install autoprefixer
 
-      - name: build-go
-        run: |
-          mkdir $HOME/src
-          cd $HOME/src
-          git clone https://github.com/gohugoio/hugo.git
-          cd hugo
-          go install --tags extended
-
       - name: Cache dependencies
         uses: actions/cache@v2
         with:
           path: ~/go/bin
           key: hugo-${{ hashFiles('hugo') }}
           restore-keys: hugo-
+
+      - name: build-go
+        run: |
+          mkdir $HOME/src
+          cd $HOME/src
+          git clone https://github.com/gohugoio/hugo.git -b v0.105.0
+          cd hugo
+          go install --tags extended
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
