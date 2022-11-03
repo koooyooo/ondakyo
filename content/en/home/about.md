@@ -4,7 +4,9 @@ image: "profile.jpg"
 weight: 8
 ---
 
-恩田教は、神の**恩**によって救われることを信じる教会です。  
+恩田教は 神の**恩**によって救われることを信じる教会です。  
+とはいえ「天は自ら助くるものを助く」それなりの自助努力はしましょう。
+
 <!--恩田教は、4つの価値によって成り立ち、それらは「**田**」の字で表されています。 -->
 
 <!--This is **Introduction**, a minimalist website theme made for [Hugo](https://gohugo.io). -->
