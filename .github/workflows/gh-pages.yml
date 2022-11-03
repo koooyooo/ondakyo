@@ -18,10 +18,12 @@ jobs:
       - uses: actions/setup-go@v3
         with:
           go-version: '^1.19' # The Go version to download (if necessary) and use.
+          cache: true
 
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+          cache: 'npm'
 
       - name: install-js-libs
         run: |
