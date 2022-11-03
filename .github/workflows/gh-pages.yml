@@ -29,16 +29,18 @@ jobs:
           npm install autoprefixer
 
       - name: Cache dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
-          path: ~/go/bin
-          key: hugo-${{ hashFiles('hugo') }}
-          restore-keys: hugo-
+          path: |
+            ~/.cache/go-build
+            ~/go/pkg/mod
+          key: go-${{ hashFiles('**/go.sum') }}
+          restore-keys: go-
 
       - name: build-go
         run: |
-          mkdir $HOME/src
-          cd $HOME/src
+          mkdir -p ~/go/src/github.com/
+          cd ~/go/src/github.com/
           git clone https://github.com/gohugoio/hugo.git -b v0.105.0
           cd hugo
           go install --tags extended
