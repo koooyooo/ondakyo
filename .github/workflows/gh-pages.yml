@@ -14,18 +14,7 @@ jobs:
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-#
-#      - name: Setup Hugo
-#        uses: peaceiris/actions-hugo@v2
-#        with:
-#          hugo-version: 'latest'
-#          extended: true
-#
-#      - name: Build
-#        run: |
-#          curl -OL https://github.com/gohugoio/hugo/releases/download/v0.104.3/hugo_extended_0.104.3_Linux-64bit.tar.gz
-#          tar -xzf hugo_extended_0.104.3_Linux-64bit.tar.gz
-#          ./hugo --minify
+
       - uses: actions/setup-go@v3
         with:
           go-version: '^1.19' # The Go version to download (if necessary) and use.
@@ -60,6 +49,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-
-#      - name: copy public to docs
-#        run: rm -rf ./docs && mv ./public ./docs
