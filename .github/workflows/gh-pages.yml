@@ -47,9 +47,12 @@ jobs:
           cd hugo
           go install --tags extended
 
-      - name: build-hugo
-        run: |
-          hugo --minify
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/go/bin
+          key: hugo-${{ hashFiles('hugo') }}
+          restore-keys: hugo-
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
