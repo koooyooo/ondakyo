@@ -4,11 +4,13 @@ image: "profile.jpg"
 weight: 8
 ---
 
-恩田教は 神の**恩**によって救われることを信じる教会です。  
-とはいえ「天は自ら助くるものを助く」最初は自助努力をしましょう。
+> "Ondakyo" is a church that believes in salvation by God's **grace**.  
+But they say "heaven helps those who help themselves". We should make self-help efforts firstly.
 
-<!--This is **Introduction**, a minimalist website theme made for [Hugo](https://gohugo.io). -->
+恩田教は神の**恩**によって救われることを信じる教会です。  
+しかし「天は自ら助くるものを助く」といいます。まずは自助努力をしましょう。
 
+<!--
 ### Features
 
 * Responsive display on any size screen
@@ -18,3 +20,5 @@ weight: 8
 * _Projects_ section with any number of projects: highly configurable as a photo gallery, modals, or external links
 * _Blog_ section with optional _Latest Post_, on the main page or as a separate section
 * Styled Markdown throughout with support for Hugo's syntax highlighting
+
+-->
