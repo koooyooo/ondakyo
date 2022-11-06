@@ -5,10 +5,10 @@ weight: 8
 ---
 
 > "Ondakyo" is a church that believes in salvation by God's **grace**.  
-But they say "heaven helps those who help themselves". We should make self-help efforts firstly.
+But they say "heaven helps those who help themselves", self-help efforts are highly respected here. 
 
 恩田教は神の**恩**によって救われることを信じる教会です。  
-しかし「天は自ら助くるものを助く」といいます。まずは自助努力をしましょう。
+しかし「天は自ら助くるものを助く」といいます。ここでは特に自助努力が尊ばれます。
 
 <!--
 ### Features
