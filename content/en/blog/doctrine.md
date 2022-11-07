@@ -6,7 +6,7 @@ draft: false
 
 ## 1. Basics
 
-> The God of "ondakyo" gave us the world of digital. By God's will, the believers will experience a following miracles.
+> The God of "ondakyo" gave us the world of digital. By God's will, the believers will experience following miracles.
 > - any problems become confined to ones which are essential for your growth
 > - failures get 1) less likely to happen, 2) and they get likely to recovered
 > - private life changes: 1) the opposite sex becomes like all over you. 2) and you'll get paid more
