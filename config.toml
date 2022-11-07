@@ -2,7 +2,7 @@ baseURL                          = "https://www.ondakyo.org/"   # Your domain na
 theme                            = "introduction"
 DefaultContentLanguage           = "en"                    # Default language for multilingual sites
 # disqusshortname                 = ""                     # https://gohugo.io/content-management/comments
-# googleAnalytics                 = ""                     # https://gohugo.io/templates/internal/#google-analytics
+googleAnalytics                 = "G-B39G3X6Z4T"                     # https://gohugo.io/templates/internal/#google-analytics
 
 [params]
     themeStyle                   = "auto"                  # Choose "light" or "dark" or "auto"
