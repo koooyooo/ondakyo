@@ -35,6 +35,7 @@ jobs:
           path: |
             ~/.cache/go-build
             ~/go/pkg/mod
+            ~/go/src/github.com/hugo
           key: go-${{ hashFiles('**/go.sum') }}
           restore-keys: go-
 
