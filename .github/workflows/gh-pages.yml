@@ -45,7 +45,7 @@ jobs:
         with: 
           files: "~/go/bin/hugo"
 
-      - name: install-hugo
+      - name: build-install-hugo
         if: steps.check_files.outputs.files_exists == 'false'
         run: |
           mkdir -p ~/go/src/github.com/
@@ -54,7 +54,7 @@ jobs:
           cd hugo
           go install --tags extended
 
-      - name: build-hugo
+      - name: build-pages
         run:
           hugo --minify
 
