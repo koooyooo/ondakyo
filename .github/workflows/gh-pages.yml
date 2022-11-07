@@ -46,7 +46,7 @@ jobs:
           files: "~/go/bin/hugo"
 
       - name: install-hugo
-        if: steps.check_files.outputs.file_exists == 'false'
+        if: steps.check_files.outputs.files_exists == 'false'
         run: |
           mkdir -p ~/go/src/github.com/
           cd ~/go/src/github.com/
