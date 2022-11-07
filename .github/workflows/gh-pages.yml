@@ -35,11 +35,18 @@ jobs:
           path: |
             ~/.cache/go-build
             ~/go/pkg/mod
-            ~/go/src/github.com/hugo
+            ~/go/bin
           key: go-${{ hashFiles('**/go.sum') }}
           restore-keys: go-
 
+      - name: check file existence
+        id: check_files
+        uses: andstor/file-existence-action@v2
+        with: 
+          files: "~/go/bin/hugo"
+
       - name: install-hugo
+        if: steps.check_files.outputs.file_exists == 'false'
         run: |
           mkdir -p ~/go/src/github.com/
           cd ~/go/src/github.com/
