@@ -4,6 +4,8 @@ date: 2023-04-27T13:30:02+09:00
 draft: false
 ---
 
+![img](../img/doctrine/0428-2.jpg)
+
 > As digital technology advances, it is becoming possible to deepen our connection with God. Here are some examples of what has become possible as a modern religion.
 > 
 > - Online Prayer/Worship: Through the Internet, believers all over the world are now able to conduct online prayer/worship all at once.
@@ -14,7 +16,7 @@ draft: false
 > 
 > These technologies are enabling modern religions to connect with God in deeper and more diverse ways than ever before.
 > 
-> onda-kyo will promote the use of these technologies.
+> onda-kyo will promote the use of these technologies and enrich people's hearts.
 
 デジタル技術が進歩するにつれ、神とのつながりを深めることが可能になってきています。以下は、現代の宗教として可能になってきた例です。
 
@@ -26,4 +28,4 @@ draft: false
 
 これらのテクノロジーを活用することで、現代の宗教が従来よりも深く、より多様な方法で神とのつながりを持つことが可能になってきています。
 
-恩田教ではこれらのテクノロジー活用を推進していきます。
+恩田教はこうしたテクノロジーの活用を推め、人々の心を豊かにします。

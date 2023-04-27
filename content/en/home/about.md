@@ -1,7 +1,7 @@
 ---
 title: "About"
 # image: "profile.jpg"
-image: "img/0426-4.jpg"
+image: "img/0427-111.jpg"
 weight: 8
 ---
 
