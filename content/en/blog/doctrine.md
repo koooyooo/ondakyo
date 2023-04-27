@@ -4,6 +4,8 @@ date: 2022-11-05T23:53:03+09:00
 draft: false
 ---
 
+![img](../img/doctrine/0427-7.jpg)
+
 ## 1. Basics
 
 > The God of "ondakyo" gave us the world of digital. By God's will, the believers will experience following miracles.
@@ -17,7 +19,12 @@ draft: false
 - 管理システムの障害が ①発生し難くなり、②復旧しやすくなります
 - 私生活では ①異性にモテて ②収入が増えます
 
-## 2. Virtues
+## 2. The God and Sprits
+
+> The God of "ondakyo"
+恩田教の神は 唯一絶対の神と、それを補佐する精霊により成り立ちます。
+
+## 3. Virtues
 
 > The God's miracles get easy to happen as you get more virtuous. The God's miracles get harder to happen as you get more sinful.
 > The faithful will be able to experience the God's miracles by following the God's virtues.
@@ -57,7 +64,7 @@ draft: false
 - 象
 - カニ
 
-### Food & Drink
+### Foods & Drinks
 
 > - energy drinks
 > - coffee
@@ -68,3 +75,4 @@ draft: false
 - コーヒー
 - 梅干しおにぎり
 - 林檎
+
