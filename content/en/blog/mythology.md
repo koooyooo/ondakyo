@@ -1,7 +1,7 @@
 ---
 title: "Mythology"
 date: 2023-04-28T10:00:09+09:00
-draft: true
+draft: false
 ---
 
 ![img](../img/mythology/0428-603.jpg)
