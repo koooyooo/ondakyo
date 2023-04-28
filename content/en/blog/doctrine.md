@@ -1,7 +1,7 @@
 ---
 title: "Doctrine"
 date: 2022-11-05T23:53:03+09:00
-draft: false
+draft: true
 ---
 
 ![img](../img/doctrine/0427-7.jpg)
